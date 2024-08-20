@@ -1,0 +1,75 @@
+body{
+    /* background-image: url('https://imgs.search.brave.com/Opr0sIUVGsa_PCyrcvaM6uIMUWlJiwuphCgYtWxUsXI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDg5MDQw/MTYuanBn'); */
+   
+    background-image: url("/images/mernstack.jpg");
+    background-size: cover;
+    
+}
+
+.mern1{
+    
+    background-color: rgb(24, 174, 7);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: 900 bold ;
+    text-align: center;
+    text-decoration: dotted;
+    border: dotted 10px cyan;
+    
+
+}
+
+#hello{
+ width:0px;
+ 
+}
+
+#stack1{
+    background-color: blueviolet;
+    width: fit-content;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    
+}
+
+#stack2{
+    background-color: yellow;
+    width: max-content;
+    font-family: sans-serif;
+    font-weight: 700;
+   
+}
+
+#stack3{
+    background-color: brown;
+    width: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.square{
+    background-color: rgb(39, 9, 185);
+    list-style: lower-alpha;
+}
+
+table{
+    border:4px;
+    border-style: circle;
+    border-color: red;
+    border-collapse: collapse;
+    margin: 5% 30% 5% 40%;
+}
+  td{
+   
+    border-style: solid;
+    border-collapse: collapse;
+    color: rgb(0, 0, 0);
+    border-right: solid rebeccapurple;
+    padding: 5px 20px;
+    
+}
+
+table tr{
+   
+    border-style: solid;
+    border-collapse: collapse;
+} 

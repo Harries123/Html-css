@@ -1,0 +1,179 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(to bottom, #f1eef5, #c844d7);
+    color: #241a26;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: linear-gradient(to bottom, #cced49, #f1eef5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow:#f1eef5;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-button {
+    background-color: #cced49;
+    color: #333;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #b5d638;
+    color: #fff;
+}
+
+.chat-button {
+    color: #ab3bdf;
+    font-size: 3rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.chat-button i {
+    font-size: 2rem;
+}
+
+main {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.shop-section {
+    flex: 1;
+    text-align: center;
+}
+
+.shop-now-button {
+    background-color: #c844d7;
+    color: white;
+    padding: 8px 19px; 
+    font-size: 14px 10px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.shop-now-button:hover {
+    background-color: #e100fa;
+    transform: scale(1.05); 
+
+}
+
+.shop {
+    position: initial;
+}
+
+.shop-play {
+    font-size: 4rem;
+    margin-top: 1rem;
+    color: #333;
+}
+
+.yellow {
+    color: #d1f24b;
+}
+
+.about-section {
+    flex: 1;
+    text-align: center;
+}
+
+.animated-logo {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 2rem 0;
+    animation:cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    color: #231f23;
+}
+
+.description {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.description h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.description p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #e02cd7;
+}
+
+footer {
+    background-color: #959397;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+.animated-logo {
+    animation: bounce 2s infinite;
+}
+
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .shop-play {
+        font-size: 2rem;
+    }
+    .description {
+        max-width: 100%;
+        padding: 1rem;
+    }
+}
