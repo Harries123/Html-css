@@ -1,0 +1,65 @@
+@mixin common_style($color){
+    
+    font-weight: 900;
+    color: $color;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(to bottom, #6c2bc2, #c844d7);
+    color: #cc13f1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    
+        background: linear-gradient(to bottom, #cced49, #937db0);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+}
+
+
+
+$primary:red;
+
+$variablename:center;
+$variablename:
+
+
+
+.ramcy{
+
+    p{
+        color: $primary;
+    }
+
+}
+
+.variable{
+    h3{
+        text-align: $variablename;
+        font-family: ;
+    }
+}
+
+
+header{
+    
+            @include common_style(center);
+        
+        }
+    
+
+
+
+.hai{
+    p{
+        @include common_style();
+    }
+}
+
+
+body {
+   @include common_style(yellow);
+
+}

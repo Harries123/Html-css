@@ -1,0 +1,285 @@
+body {
+    background-image: url("/CASE_STUDY/images/new\ img.jpeg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    padding: 5px;
+    position: relative; 
+
+}
+
+@media (max-width: 468px) {
+    .header {
+        top: 10px;
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+    padding: 8px; 
+    font-size: 14px; 
+}
+
+
+@media (max-width: 1199px) {
+    header {
+        padding: 8px;
+    }
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+
+#img1 {
+    margin-top: 5px;
+    margin-left: 40px;
+
+}
+
+.textgrp {
+    color: white;
+    margin-top: 8%;
+    margin-left: 3%;
+    width: 40%;
+}
+
+.login-form {
+    position: absolute;
+    top: 100px;
+    right: 40px;
+    width: 300px;
+    border: 2px solid rgb(240, 12, 8);
+    background-color: rgb(239, 198, 120);
+    box-sizing: border-box;
+    color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.login-form h3 {
+    margin-bottom: 15px;
+    text-align: center;
+    color: #000000;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+.login-form input {
+    width: 75%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 190px;
+    max-width: 3000px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 250px;
+    text-align: left;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.card a {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+
+@media (min-width: 1200px) {
+    .cards {
+        margin-top: 190px;
+    }
+
+    .card {
+        max-width: 250px;
+    }
+
+    .textgrp {
+        width: 40%;
+    }
+
+    .login-form {
+        width: 300px;
+    }
+
+    header nav {
+        float: right;
+    }
+}
+
+
+@media (max-width: 1199px) {
+    .cards {
+        margin-top: 100px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        max-width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .textgrp {
+        width: 60%;
+    }
+
+    .login-form {
+        right: 5px;
+        width: 250px;
+    }
+
+    header nav {
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    header nav {
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    header nav a {
+        display: block;
+        padding: 8px;
+    }
+
+    .textgrp {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .login-form {
+        top: 20px;
+        width: 100%;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .cards {
+        margin-top: 50px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .textgrp {
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .login-form {
+        width: 90%;
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 575px) {
+    .login-form {
+        top: 10px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .textgrp {
+        margin-top: 3%;
+        margin-left: 3%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1199px) {
+    header {
+        padding: 4px 16px; 
+    }
+}
+
+ footer {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(69, 66, 66);
+    position:sticky;
+    bottom: -60px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: bottom 0.3s ease-in-out;
+        }
+.footer text{
+    align-items: center;
+}
+

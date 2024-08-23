@@ -1,5 +1,4 @@
-
-* {
+/* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -18,12 +17,13 @@ header {
     background: linear-gradient(to bottom, #cced49, #f1eef5);
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
+    align-items: center; */
+     /* padding: 1rem 2rem;
     box-shadow:#f1eef5;
-}
+    height: auto; 
+}  */ 
 
-.logo {
+/* .logo {
     font-size: 1.8rem;
     font-weight: bold;
 }
@@ -145,9 +145,9 @@ footer {
     width: 100%;
     bottom: 0;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
-}
+} */
 
-@keyframes bounce {
+/* @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
         transform: translateY(0);
     }
@@ -176,4 +176,9 @@ footer {
         max-width: 100%;
         padding: 1rem;
     }
-}
+
+   
+
+
+
+} */
