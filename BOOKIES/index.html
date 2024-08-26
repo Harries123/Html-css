@@ -33,11 +33,11 @@
         <nav class="navbar navbar-expand-lg" id="navbar">
             <div class="container-fluid">
                 <!-- Navbar Brand (Bookies) -->
-<a class="navbar-brand bookie-heading" href="#" style="color: white; font-weight: bold;">
-    <img src="./images/trans.png" alt="library logo" width="50"> 
-    Bookies
-</a>
-
+                <a class="navbar-brand bookie-heading" href="#" style="color: white; font-weight: bold;">
+                    <img src="./images/trans.png" alt="library logo" width="50"> 
+                    Bookies
+                </a>
+        
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span><i class="fa-solid fa-bars" style="color: white;"></i></span>
                 </button>
@@ -50,10 +50,10 @@
                             <a class="nav-link" href="best.html">Best Seller</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Category
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #1c1c50;">
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">Fiction</a></li>
                                 <li><a class="dropdown-item" href="#">Non-Fiction</a></li>
                                 <li><a class="dropdown-item" href="#">Young Adult</a></li>
@@ -76,6 +76,7 @@
                 </div>
             </div>
         </nav>
+        
 
 
     
@@ -131,151 +132,207 @@
 </section>
 
 
-    <!-- New Section for Two Images Side by Side
-
-
-
-    <section class="image-gallery">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="./images/image1.jpg" class="img-fluid" alt="Image 1">
-                </div>
-                <div class="col-md-6">
-                    <img src="./images/image2.jpg" class="img-fluid" alt="Image 2">
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- <div class="container" id="top-cards">
-        <div class="row">
-            <div class="col-md-4 py-3 py-md-0">
-                <div class="card" style="background-color: grey;">
-                    <img src="./images/novel2.webp" alt="To Kill a Mockingbird" class="img-fluid">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">To Kill a Mockingbird</h5>
-                        <p>To Kill a Mockingbird features a cover that often highlights themes of racial injustice and moral growth, with iconic imagery such as a mockingbird or courthouse symbolizing the novel’s central messages.</p>
-                        <button>Order Now</button>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="col-md-4 py-3 py-md-0">
-                <div class="card" style="background-color: grey;">
-                    <img src="./images/mocking.webp" alt="To Kill a Mockingbird" class="img-fluid">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">To Kill a Mockingbird</h5>
-                        <p>To Kill a Mockingbird features a cover that often highlights themes of racial injustice and moral growth, with iconic imagery such as a mockingbird or courthouse symbolizing the novel’s central messages.</p>
-                        <button>Order Now</button>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="col-md-4 py-3 py-md-0">
-                <div class="card" style="background-color: grey;">
-                    <img src="./images/novel3.webp" alt="To Kill a Mockingbird" class="img-fluid">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">To Kill a Mockingbird</h5>
-                        <p>To Kill a Mockingbird features a cover that often highlights themes of racial injustice and moral growth, with iconic imagery such as a mockingbird or courthouse symbolizing the novel’s central messages.</p>
-                        <button>Order Now</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
     
 
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-
-
- -->
-
-
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
-
-    <div class="carousel-item active">
-        <div class="d-flex justify-content-around">
-            <div class="card">
-                <img src="./images/mocking.webp" height="250px" alt="moking">
-                <div class="price-overlay">
-                    <p><strong>&#8377;200.3<strike>&#8377;100.9</strike></strong></p>
-                </div>
-                <p>To Kill a Mockingbird features a cover that often highlights themes of racial injustice and moral growth, with iconic imagery such as a mockingbird or courthouse symbolizing the novel’s central messages.</p>
-                <button class="btn btn-primary" onclick="window.location.href='page1.html'">Order Now</button>
-            </div>
-            <div class="card">
-                <img src="./images/novel2.webp" height="250px" alt="novel2">
-                <div class="price-overlay">
-                    <p><strong>&#8377;200.3<strike>&#8377;100.9</strike></strong></p>
-                </div>
-                <p>To Kill a Mockingbird features a cover that often highlights themes of racial injustice and moral growth, with iconic imagery such as a mockingbird or courthouse symbolizing the novel’s central messages.</p>
-                <button class="btn btn-primary" onclick="window.location.href='page2.html'">Order Now</button>
-            </div>
-            <div class="card">
-                <img src="./images/novel3.webp" height="250px" alt="novel3">
-                <div class="price-overlay">
-                    <p><strong>&#8377;200.3<strike>&#8377;100.9</strike></strong></p>
-                </div>
-                <p>To Kill a Mockingbird features a cover that often highlights themes of racial injustice and moral growth, with iconic imagery such as a mockingbird or courthouse symbolizing the novel’s central messages.</p>
-                <button class="btn btn-primary" onclick="window.location.href='page3.html'">Order Now</button>
-            </div>
-            <div class="card">
-                <img src="./images/mocking.webp" height="250px" alt="moking">
-                <div class="price-overlay">
-                    <p><strong>&#8377;200.3<strike>&#8377;100.9</strike></strong></p>
-                </div>
-                <p>To Kill a Mockingbird features a cover that often highlights themes of racial injustice and moral growth, with iconic imagery such as a mockingbird or courthouse symbolizing the novel’s central messages.</p>
-                <button class="btn btn-primary" onclick="window.location.href='page4.html'">Order Now</button>
-            </div>
-        </div>
-    </div>
+ <div id="bookCarousel" class="carousel slide" data-bs-ride="carousel">
+     <div class="carousel-inner">
+         <!-- Carousel Item 1 -->
+         <div class="carousel-item active">
+             <div class="container">
+                 <div class="row">
+                     <!-- Book 1 -->
+                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                         <div class="card">
+                             <img src="./images/mocking.webp" class="card-img-top" alt="To Kill a Mockingbird">
+                             <div class="card-body text-center">
+                                 <div class="price-overlay">
+                                     <p><strong>&#8377;200.3 <strike>&#8377;100.9</strike></strong></p>
+                                 </div>
+                                 <p class="card-text">Set in the racially charged American South, this novel follows Scout Finch, a young girl whose father, Atticus Finch, is a lawyer defending a black man accused of raping a white woman. The story deals with themes of racial injustice and moral growth.</p>
+                                 <button class="btn btn-primary" onclick="window.location.href='page1.html'">Order Now</button>
+                             </div>
+                         </div>
+                     </div>
+                     <!-- Book 2 -->
+                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                         <div class="card">
+                             <img src="./images/novel2.webp" class="card-img-top" alt="1984">
+                             <div class="card-body text-center">
+                                 <div class="price-overlay">
+                                     <p><strong>&#8377;200.3 <strike>&#8377;100.9</strike></strong></p>
+                                 </div>
+                                 <p class="card-text">This dystopian novel explores a totalitarian regime led by Big Brother. It follows Winston Smith as he navigates a society under constant surveillance, where independent thought is persecuted and truth is manipulated.</p>
+                                 <button class="btn btn-primary" onclick="window.location.href='page2.html'">Order Now</button>
+                             </div>
+                         </div>
+                     </div>
+                     <!-- Book 3 -->
+                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                         <div class="card">
+                             <img src="./images/novel3.webp" class="card-img-top" alt="Pride and Prejudice">
+                             <div class="card-body text-center">
+                                 <div class="price-overlay">
+                                     <p><strong>&#8377;200.3 <strike>&#8377;100.9</strike></strong></p>
+                                 </div>
+                                 <p class="card-text">This classic novel follows Elizabeth Bennet as she navigates issues of class, marriage, and morality in early 19th-century England. It highlights the social intricacies and the impact of personal misunderstandings on relationships.</p>
+                                 <button class="btn btn-primary" onclick="window.location.href='page3.html'">Order Now</button>
+                             </div>
+                         </div>
+                     </div>
+                     <!-- Book 4 -->
+                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                         <div class="card">
+                             <img src="./New folder/img2.webp" class="card-img-top" alt="The Great Gatsby">
+                             <div class="card-body text-center">
+                                 <div class="price-overlay">
+                                     <p><strong>&#8377;200.3 <strike>&#8377;100.9</strike></strong></p>
+                                 </div>
+                                 <p class="card-text">Set in the Roaring Twenties, this novel tells the story of Jay Gatsby and his pursuit of wealth and romance. It critiques the American Dream and explores themes of decadence and social change.</p>
+                                 <button class="btn btn-primary" onclick="window.location.href='page4.html'">Order Now</button>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <!-- Carousel Item 2 -->
+         <div class="carousel-item">
+             <div class="container">
+                 <div class="row">
+                     <!-- Book 5 -->
+                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                         <div class="card">
+                             <img src="./New folder/img3.webp" class="card-img-top" alt="Moby-Dick">
+                             <div class="card-body text-center">
+                                 <div class="price-overlay">
+                                     <p><strong>&#8377;200.3 <strike>&#8377;100.9</strike></strong></p>
+                                 </div>
+                                 <p class="card-text">This epic novel chronicles the voyage of the Pequod, captained by the obsessive Ahab, who is on a quest for revenge against the white whale, Moby Dick. It delves into themes of obsession, fate, and the natural world.</p>
+                                 <button class="btn btn-primary" onclick="window.location.href='page5.html'">Order Now</button>
+                             </div>
+                         </div>
+                     </div>
+                     <!-- Book 6 -->
+                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                         <div class="card">
+                             <img src="./New folder/img4.webp" class="card-img-top" alt="One Hundred Years of Solitude">
+                             <div class="card-body text-center">
+                                 <div class="price-overlay">
+                                     <p><strong>&#8377;200.3 <strike>&#8377;100.9</strike></strong></p>
+                                 </div>
+                                 <p class="card-text">This landmark work of magical realism chronicles the Buendía family over several generations in the fictional town of Macondo. It combines reality with fantastical elements to explore themes of solitude and history.</p>
+                                 <button class="btn btn-primary" onclick="window.location.href='page6.html'">Order Now</button>
+                             </div>
+                         </div>
+                     </div>
+                     <!-- Book 7 -->
+                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                         <div class="card">
+                             <img src="./New folder/img5.webp" class="card-img-top" alt="The Catcher in the Rye">
+                             <div class="card-body text-center">
+                                 <div class="price-overlay">
+                                     <p><strong>&#8377;200.3 <strike>&#8377;100.9</strike></strong></p>
+                                 </div>
+                                 <p class="card-text">The novel follows Holden Caulfield, a disenchanted teenager who has been expelled from prep school and wanders New York City. It captures his angst and search for authenticity in a world he finds phony.</p>
+                                 <button class="btn btn-primary" onclick="window.location.href='page7.html'">Order Now</button>
+                             </div>
+                         </div>
+                     </div>
+                     <!-- Book 8 -->
+                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                         <div class="card">
+                             <img src="./New folder/img12.webp" class="card-img-top" alt="Jane Eyre">
+                             <div class="card-body text-center">
+                                 <div class="price-overlay">
+                                     <p><strong>&#8377;200.3 <strike>&#8377;100.9</strike></strong></p>
+                                 </div>
+                                 <p class="card-text">This novel tells the story of Jane Eyre, an orphaned girl who becomes a governess and falls in love with her employer, Mr. Rochester. It addresses themes of class, sexuality, religion, and feminism.</p>
+                                 <button class="btn btn-primary" onclick="window.location.href='page8.html'">Order Now</button>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <!-- Carousel Item 3 -->
+         <div class="carousel-item">
+             <div class="container">
+                 <div class="row">
+                     <!-- Book 9 -->
+                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                         <div class="card">
+                             <img src="./New folder/img7.webp" class="card-img-top" alt="Wuthering Heights">
+                             <div class="card-body text-center">
+                                 <div class="price-overlay">
+                                     <p><strong>&#8377;200.3 <strike>&#8377;100.9</strike></strong></p>
+                                 </div>
+                                 <p class="card-text">This Gothic novel explores the intense and tumultuous relationship between Heathcliff and Catherine Earnshaw on the Yorkshire moors. It delves into themes of passion, revenge, and the supernatural.</p>
+                                 <button class="btn btn-primary" onclick="window.location.href='page9.html'">Order Now</button>
+                             </div>
+                         </div>
+                     </div>
+                     <!-- Book 10 -->
+                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                         <div class="card">
+                             <img src="./New folder/img8.webp" class="card-img-top" alt="Brave New World">
+                             <div class="card-body text-center">
+                                 <div class="price-overlay">
+                                     <p><strong>&#8377;200.3 <strike>&#8377;100.9</strike></strong></p>
+                                 </div>
+                                 <p class="card-text">In a dystopian future where society is engineered for stability and happiness through genetic manipulation and psychological conditioning, this novel explores the consequences of a world devoid of individuality and true emotion.</p>
+                                 <button class="btn btn-primary" onclick="window.location.href='page10.html'">Order Now</button>
+                             </div>
+                         </div>
+                     </div>
+                     <!-- Book 11 -->
+                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                         <div class="card">
+                             <img src="./New folder/img9.webp" class="card-img-top" alt="The Hobbit">
+                             <div class="card-body text-center">
+                                 <div class="price-overlay">
+                                     <p><strong>&#8377;200.3 <strike>&#8377;100.9</strike></strong></p>
+                                 </div>
+                                 <p class="card-text">A prelude to the Lord of the Rings series, this fantasy novel follows Bilbo Baggins, a hobbit who joins a quest to reclaim a stolen treasure from the dragon Smaug. It’s a tale of adventure, bravery, and personal growth.</p>
+                                 <button class="btn btn-primary" onclick="window.location.href='page11.html'">Order Now</button>
+                             </div>
+                         </div>
+                     </div>
+                     <!-- Book 12 -->
+                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                         <div class="card">
+                             <img src="./New folder/img11.webp" class="card-img-top" alt="The Lord of the Rings">
+                             <div class="card-body text-center">
+                                 <div class="price-overlay">
+                                     <p><strong>&#8377;200.3 <strike>&#8377;100.9</strike></strong></p>
+                                 </div>
+                                 <p class="card-text">This epic fantasy trilogy chronicles the journey of Frodo Baggins and his companions to destroy the One Ring and defeat the Dark Lord Sauron. It explores themes of friendship, heroism, and the struggle between good and evil.</p>
+                                 <button class="btn btn-primary" onclick="window.location.href='page12.html'">Order Now</button>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <!-- Carousel controls -->
+     <button class="carousel-control-prev" type="button" data-bs-target="#bookCarousel" data-bs-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Previous</span>
+     </button>
+     <button class="carousel-control-next" type="button" data-bs-target="#bookCarousel" data-bs-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Next</span>
+     </button>
+ </div>
+ 
+ 
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9g80KHTDFAE8zzpPejFf5dglG5Oe1MikI1O5tN6hJ9aB56dJefT" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     
-    <!-- Carousel Item 2 -->
-    <div class="carousel-item">
-        <div class="d-flex justify-content-around">
-            <div class="card">
-                <img src="./images/novel2.webp" height="250px" alt="novel2">
-                <div class="price-overlay">
-                    <p><strong>&#8377;200.3<strike>&#8377;100.9</strike></strong></p>
-                </div>
-                <p>To Kill a Mockingbird features a cover that often highlights themes of racial injustice and moral growth, with iconic imagery such as a mockingbird or courthouse symbolizing the novel’s central messages.</p>
-                <button class="btn btn-primary" onclick="window.location.href='page5.html'">Order Now</button>
-            </div>
-            <div class="card">
-                <img src="./images/novel3.webp" height="250px" alt="novel3">
-                <div class="price-overlay">
-                    <p><strong>&#8377;200.3<strike>&#8377;100.9</strike></strong></p>
-                </div>
-                <p>To Kill a Mockingbird features a cover that often highlights themes of racial injustice and moral growth, with iconic imagery such as a mockingbird or courthouse symbolizing the novel’s central messages.</p>
-                <button class="btn btn-primary" onclick="window.location.href='page6.html'">Order Now</button>
-            </div>
-            <div class="card">
-                <img src="./images/mocking.webp" height="250px" alt="moking">
-                <div class="price-overlay">
-                    <p><strong>&#8377;200.3<strike>&#8377;100.9</strike></strong></p>
-                </div>
-                <p>To Kill a Mockingbird features a cover that often highlights themes of racial injustice and moral growth, with iconic imagery such as a mockingbird or courthouse symbolizing the novel’s central messages.</p>
-                <button class="btn btn-primary" onclick="window.location.href='page7.html'">Order Now</button>
-            </div>
-            <div class="card">
-                <img src="./images/novel2.webp" height="250px" alt="novel2">
-                <div class="price-overlay">
-                    <p><strong>&#8377;200.3<strike>&#8377;100.9</strike></strong></p>
-                </div>
-                <p>To Kill a Mockingbird features a cover that often highlights themes of racial injustice and moral growth, with iconic imagery such as a mockingbird or courthouse symbolizing the novel’s central messages.</p>
-                <button class="btn btn-primary" onclick="window.location.href='page8.html'">Order Now</button>
-            </div>
-        </div>
-    </div>
-    </div>
 
     <footer class="sticky-footer">
         <div class="container">

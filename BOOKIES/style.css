@@ -313,3 +313,22 @@
     }
  }
 
+.sticky-footer{
+    text-align: center;
+    position: sticky;
+    background-color: rgb(146, 153, 227);
+}
+
+/* Custom styles for Bootstrap dropdown */
+.dropdown-menu {
+    background-color: #007bff; /* Blue background */
+    color: #6991e8; /* White text */
+}
+
+.dropdown-menu .dropdown-item {
+    color: #050e46; /* White text for items */
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #0056b3; /* Darker blue when hovering */
+}
